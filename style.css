@@ -1,0 +1,36 @@
+h3{
+    font-size: 50px !important;
+    font-family: 'Rubik 80s Fade', cursive;
+    color: coral;
+    background-color: cornsilk;
+    border-radius: 15% !important;
+    margin-top: 2.5%;
+}
+
+h3:hover{
+    color: coral !important;
+    cursor: initial;
+}
+
+.button{
+    font-size: 25px;
+    background-color: greenyellow;
+    color: brown;
+    border-radius: 20px !important;
+    margin-top: -5%;
+}
+
+canvas{
+    animation-name: glow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow{
+    0%{box-shadow: 1px 1px 38px rgb(228, 33, 98);}
+    20%{box-shadow: 1px 1px 38px rgb(25, 169, 217);}
+    40%{box-shadow: 1px 1px 38px rgb(38, 213, 146);}
+    60%{box-shadow: 1px 1px 38px rgb(197, 229, 18);}
+    80%{box-shadow: 1px 1px 38px rgb(229, 85, 13);}
+    100%{box-shadow: 1px 1px 38px rgb(228, 33, 98);}
+}
